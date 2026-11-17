@@ -1,0 +1,15 @@
+check,issuer,status,detail
+completeness (13 items),JSW Steel,PASS,13/13
+source + page documented,JSW Steel,PASS,
+EBITDA recompute within 5%,JSW Steel,PASS,"model 23,287 vs reported 22,904 (2% diff)"
+net debt > 0,JSW Steel,PASS,"76,563"
+leverage between 0 and 10x,JSW Steel,PASS,3.29x
+equity < total assets,JSW Steel,PASS,
+OCF positive,JSW Steel,PASS,
+completeness (13 items),Tata Steel,PASS,13/13
+source + page documented,Tata Steel,PASS,
+EBITDA recompute within 5%,Tata Steel,PASS,"model 25,985 vs reported 25,802 (1% diff)"
+net debt > 0,Tata Steel,PASS,"82,712"
+leverage between 0 and 10x,Tata Steel,PASS,3.18x
+equity < total assets,Tata Steel,PASS,
+OCF positive,Tata Steel,PASS,

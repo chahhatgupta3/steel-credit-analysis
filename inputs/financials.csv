@@ -1,0 +1,27 @@
+issuer,fiscal_year,line_item,value_inr_cr,source_doc,page_no,basis,notes
+Tata Steel,FY25,revenue,218543.0,Tata Steel Q4 FY25 consolidated filing,2.0,consolidated,
+Tata Steel,FY25,pbt,9077.0,Tata Steel Q4 FY25 consolidated filing,2.0,consolidated,
+Tata Steel,FY25,finance_costs,7340.0,Tata Steel Q4 FY25 consolidated filing,2.0,consolidated,
+Tata Steel,FY25,depreciation,10422.0,Tata Steel Q4 FY25 consolidated filing,2.0,consolidated,
+Tata Steel,FY25,exceptional_items,-854.0,Tata Steel Q4 FY25 consolidated filing,2.0,consolidated,positive = loss/charge
+Tata Steel,FY25,ebitda_reported,25802.0,Tata Steel Integrated Report FY25 (fy25-integratedreport.pdf),133.0,consolidated,company-reported consolidated EBITDA (own definition)
+Tata Steel,FY25,total_borrowings,94801.05,Tata Steel Q4 FY25 consolidated filing,4.0,consolidated,non-current 73384.52 + current 21416.53; leases not added separately
+Tata Steel,FY25,cash_and_cash_equivalents,9604.0,Tata Steel Q4 FY25 consolidated filing,4.0,consolidated,
+Tata Steel,FY25,other_bank_balances,2042.0,Tata Steel Q4 FY25 consolidated filing,4.0,consolidated,
+Tata Steel,FY25,current_investments,443.0,Tata Steel Q4 FY25 consolidated filing,4.0,consolidated,
+Tata Steel,FY25,total_equity,91353.0,Tata Steel Q4 FY25 consolidated filing,4.0,consolidated,incl. non-controlling interest
+Tata Steel,FY25,total_assets,279394.0,Tata Steel Q4 FY25 consolidated filing,4.0,consolidated,
+Tata Steel,FY25,ocf,26136.0,Tata Steel Q4 FY25 consolidated filing,9.0,consolidated,
+JSW Steel,FY25,revenue,168824.0,JSW Steel Integrated Annual Report FY25 (consolidated),277.0,consolidated,
+JSW Steel,FY25,pbt,5077.0,JSW Steel Integrated Annual Report FY25 (consolidated),340.0,consolidated,consolidated; gross debt = reported net debt 76563 + cash 19394
+JSW Steel,FY25,finance_costs,8412.0,JSW Steel Integrated Annual Report FY25 (consolidated),340.0,consolidated,consolidated; gross debt = reported net debt 76563 + cash 19394
+JSW Steel,FY25,depreciation,9309.0,JSW Steel Integrated Annual Report FY25 (consolidated),340.0,consolidated,consolidated; gross debt = reported net debt 76563 + cash 19394
+JSW Steel,FY25,exceptional_items,489.0,JSW Steel Integrated Annual Report FY25 (consolidated),340.0,consolidated,consolidated; gross debt = reported net debt 76563 + cash 19394
+JSW Steel,FY25,ebitda_reported,22904.0,JSW Steel Integrated Annual Report FY25,143.0,consolidated,company-reported consolidated EBITDA (own definition)
+JSW Steel,FY25,total_borrowings,95957.0,JSW Steel Integrated Annual Report FY25 (consolidated),47.0,consolidated,consolidated; gross debt = reported net debt 76563 + cash 19394
+JSW Steel,FY25,cash_and_cash_equivalents,19394.0,JSW Steel Integrated Annual Report FY25 (consolidated),47.0,consolidated,consolidated; gross debt = reported net debt 76563 + cash 19394
+JSW Steel,FY25,other_bank_balances,0.0,JSW Steel Integrated Annual Report FY25 (consolidated),47.0,consolidated,consolidated; gross debt = reported net debt 76563 + cash 19394
+JSW Steel,FY25,current_investments,0.0,JSW Steel Integrated Annual Report FY25 (consolidated),47.0,consolidated,consolidated; gross debt = reported net debt 76563 + cash 19394
+JSW Steel,FY25,total_equity,81666.0,JSW Steel Integrated Annual Report FY25 (consolidated),340.0,consolidated,consolidated; gross debt = reported net debt 76563 + cash 19394
+JSW Steel,FY25,total_assets,240742.0,JSW Steel Integrated Annual Report FY25 (consolidated),342.0,consolidated,consolidated; gross debt = reported net debt 76563 + cash 19394
+JSW Steel,FY25,ocf,20899.0,JSW Steel Integrated Annual Report FY25 (consolidated),279.0,consolidated,

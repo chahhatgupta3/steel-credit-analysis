@@ -1,0 +1,7 @@
+docs/*.pdf
+venv/
+__pycache__/
+.DS_Store
+~$*
+*.numbers
+db/credit.db
