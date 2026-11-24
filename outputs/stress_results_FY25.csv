@@ -1,0 +1,11 @@
+issuer,shock,net_leverage,breach
+JSW Steel,0%,3.29,False
+JSW Steel,-10%,3.65,False
+JSW Steel,-20%,4.11,False
+JSW Steel,-30%,4.7,True
+JSW Steel,-40%,5.48,True
+Tata Steel,0%,3.18,False
+Tata Steel,-10%,3.54,False
+Tata Steel,-20%,3.98,False
+Tata Steel,-30%,4.55,True
+Tata Steel,-40%,5.31,True

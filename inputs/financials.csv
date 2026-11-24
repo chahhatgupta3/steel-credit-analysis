@@ -25,3 +25,29 @@ JSW Steel,FY25,current_investments,0.0,JSW Steel Integrated Annual Report FY25 (
 JSW Steel,FY25,total_equity,81666.0,JSW Steel Integrated Annual Report FY25 (consolidated),340.0,consolidated,consolidated; gross debt = reported net debt 76563 + cash 19394
 JSW Steel,FY25,total_assets,240742.0,JSW Steel Integrated Annual Report FY25 (consolidated),342.0,consolidated,consolidated; gross debt = reported net debt 76563 + cash 19394
 JSW Steel,FY25,ocf,20899.0,JSW Steel Integrated Annual Report FY25 (consolidated),279.0,consolidated,
+Tata Steel,FY26,revenue,232139.94,Tata Steel Q4 FY26 consolidated filing,2.0,consolidated,converted from INR lakh to crore (/100)
+Tata Steel,FY26,pbt,15600.19,Tata Steel Q4 FY26 consolidated filing,2.0,consolidated,converted from INR lakh to crore (/100)
+Tata Steel,FY26,finance_costs,7167.06,Tata Steel Q4 FY26 consolidated filing,2.0,consolidated,converted from INR lakh to crore (/100)
+Tata Steel,FY26,depreciation,11954.51,Tata Steel Q4 FY26 consolidated filing,2.0,consolidated,converted from INR lakh to crore (/100)
+Tata Steel,FY26,exceptional_items,-1032.46,Tata Steel Q4 FY26 consolidated filing,2.0,consolidated,converted from INR lakh to crore (/100)
+Tata Steel,FY26,ebitda_reported,34721.76,Tata Steel Q4 FY26 consolidated filing,2.0,consolidated,converted from INR lakh to crore (/100)
+Tata Steel,FY26,total_borrowings,92381.68,Tata Steel Q4 FY26 consolidated filing,7.0,consolidated,converted from INR lakh to crore (/100)
+Tata Steel,FY26,cash_and_cash_equivalents,8884.95,Tata Steel Q4 FY26 consolidated filing,6.0,consolidated,converted from INR lakh to crore (/100)
+Tata Steel,FY26,other_bank_balances,1172.58,Tata Steel Q4 FY26 consolidated filing,6.0,consolidated,converted from INR lakh to crore (/100)
+Tata Steel,FY26,current_investments,1003.54,Tata Steel Q4 FY26 consolidated filing,6.0,consolidated,converted from INR lakh to crore (/100)
+Tata Steel,FY26,total_equity,103780.45,Tata Steel Q4 FY26 consolidated filing,6.0,consolidated,converted from INR lakh to crore (/100)
+Tata Steel,FY26,total_assets,301254.11,Tata Steel Q4 FY26 consolidated filing,6.0,consolidated,converted from INR lakh to crore (/100)
+Tata Steel,FY26,ocf,35064.46,Tata Steel Q4 FY26 consolidated filing,12.0,consolidated,converted from INR lakh to crore (/100)
+JSW Steel,FY26,revenue,185470.0,JSW Steel Integrated Annual Report FY26 (consolidated),8.0,consolidated,
+JSW Steel,FY26,pbt,29250.0,JSW Steel Integrated Annual Report FY26 (consolidated),8.0,consolidated,
+JSW Steel,FY26,finance_costs,9102.0,JSW Steel Integrated Annual Report FY26 (consolidated),8.0,consolidated,
+JSW Steel,FY26,depreciation,9601.0,JSW Steel Integrated Annual Report FY26 (consolidated),8.0,consolidated,
+JSW Steel,FY26,exceptional_items,-17359.0,JSW Steel Integrated Annual Report FY26 (consolidated),8.0,consolidated,
+JSW Steel,FY26,ebitda_reported,29821.0,JSW Steel FY26 report (FY26 JSW.pdf),16.0,consolidated,company operating EBITDA; adjusted EBITDA is 32048
+JSW Steel,FY26,total_borrowings,95532.0,JSW Steel Integrated Annual Report FY26 (consolidated),9.0,consolidated,
+JSW Steel,FY26,cash_and_cash_equivalents,39256.0,JSW Steel Integrated Annual Report FY26 (consolidated),910.0,consolidated,
+JSW Steel,FY26,other_bank_balances,1733.0,JSW Steel Integrated Annual Report FY26 (consolidated),9.0,consolidated,
+JSW Steel,FY26,current_investments,518.0,JSW Steel Integrated Annual Report FY26 (consolidated),9.0,consolidated,
+JSW Steel,FY26,total_equity,105475.0,JSW Steel Integrated Annual Report FY26 (consolidated),9.0,consolidated,
+JSW Steel,FY26,total_assets,269676.0,JSW Steel Integrated Annual Report FY26 (consolidated),9.0,consolidated,
+JSW Steel,FY26,ocf,25152.0,JSW Steel Integrated Annual Report FY26 (consolidated),10.0,consolidated,

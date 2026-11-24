@@ -5,27 +5,32 @@ w = pd.read_sql('SELECT * FROM v_wide', conn)
 f = pd.read_sql('SELECT * FROM financials', conn)
 rows = []
 
-def check(name, issuer, ok, detail=''):
-    rows.append({'check': name, 'issuer': issuer, 'status': 'PASS' if ok else 'FAIL', 'detail': detail})
+def check(name, i, y, ok, detail=''):
+    rows.append({'check': name, 'issuer': i, 'year': y, 'status': 'PASS' if ok else 'FAIL', 'detail': detail})
 
 for _, r in w.iterrows():
-    i = r['issuer']
-    fi = f[f.issuer == i]
+    i, y = r['issuer'], r['fiscal_year']
+    fi = f[(f.issuer == i) & (f.fiscal_year == y)]
     n = int(fi.value_inr_cr.notna().sum())
-    check('completeness (13 items)', i, n == 13, f'{n}/13')
-    check('source + page documented', i, bool(fi[['source_doc', 'page_no']].notna().all().all()))
+    check('completeness (13 items)', i, y, n == 13, str(n) + '/13')
+    if n == 0:
+        continue
+    src_ok = fi.source_doc.fillna('').str.len().gt(0).all() and fi.page_no.notna().all()
+    check('source + page documented', i, y, bool(src_ok))
+    if n < 13:
+        continue
     eb = r.pbt + r.finance_costs + r.depreciation + r.exceptional_items
     d = abs(eb - r.ebitda_reported) / r.ebitda_reported
-    check('EBITDA recompute within 5%', i, d <= 0.05, f'model {eb:,.0f} vs reported {r.ebitda_reported:,.0f} ({d:.0%} diff)')
+    check('EBITDA recompute within 5%', i, y, d <= 0.05, 'diff ' + str(round(d * 100)) + '%')
     nd = r.total_borrowings - r.cash - r.other_bank - r.cur_inv
-    check('net debt > 0', i, nd > 0, f'{nd:,.0f}')
-    check('leverage between 0 and 10x', i, 0 < nd / eb < 10, f'{nd / eb:.2f}x')
-    check('equity < total assets', i, r.total_equity < r.total_assets)
-    check('OCF positive', i, r.ocf > 0)
+    check('net debt > 0', i, y, nd > 0, str(round(nd)))
+    check('leverage between 0 and 10x', i, y, 0 < nd / eb < 10, str(round(nd / eb, 2)) + 'x')
+    check('equity < total assets', i, y, r.total_equity < r.total_assets)
+    check('OCF positive', i, y, r.ocf > 0)
 
 out = pd.DataFrame(rows)
 out.to_csv('outputs/quality_report.csv', index=False)
-pd.set_option('display.width', 220); pd.set_option('display.max_colwidth', 80)
+pd.set_option('display.width', 220)
 print(out.to_string(index=False))
 p = int((out.status == 'PASS').sum())
-print(f'\nPass rate: {p}/{len(out)} = {p / len(out):.0%}')
+print('Pass rate:', p, '/', len(out))

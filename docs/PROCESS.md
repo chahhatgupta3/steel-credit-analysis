@@ -34,3 +34,11 @@ Tata Steel Integrated Report FY25 and Q4 FY25 consolidated filing; JSW Steel Int
 - Data quality checks: 14/14 passing after fixes (12/14 on first run)
 - Parser: hard set 50% -> 100% after four regex fixes
 - UAT: 8/8 pytest tests passing
+
+## FY26 update
+- FY26 added; tooling runs for any year with: python src/run_all.py FY26
+- Tata FY26 filing was in INR lakh; converted to crore (/100), noted in the CSV
+- JSW FY26 reported EBITDA corrected to operating EBITDA (29,821) after the EBITDA check failed
+- Tata net debt: model 81,321 vs company 80,144. Gap = FX hedges against borrowings and non-current earmarked bank balances, which the model excludes (same pattern in FY25: 282). Lease obligations are already inside balance sheet borrowings.
+- Tata net leverage 2.41x vs company-reported 2.3x (model EBITDA is built from PBT, about 3% below reported)
+- JSW net leverage 1.77x vs company-reported 1.81x

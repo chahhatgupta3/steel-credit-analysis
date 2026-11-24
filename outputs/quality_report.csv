@@ -1,15 +1,29 @@
-check,issuer,status,detail
-completeness (13 items),JSW Steel,PASS,13/13
-source + page documented,JSW Steel,PASS,
-EBITDA recompute within 5%,JSW Steel,PASS,"model 23,287 vs reported 22,904 (2% diff)"
-net debt > 0,JSW Steel,PASS,"76,563"
-leverage between 0 and 10x,JSW Steel,PASS,3.29x
-equity < total assets,JSW Steel,PASS,
-OCF positive,JSW Steel,PASS,
-completeness (13 items),Tata Steel,PASS,13/13
-source + page documented,Tata Steel,PASS,
-EBITDA recompute within 5%,Tata Steel,PASS,"model 25,985 vs reported 25,802 (1% diff)"
-net debt > 0,Tata Steel,PASS,"82,712"
-leverage between 0 and 10x,Tata Steel,PASS,3.18x
-equity < total assets,Tata Steel,PASS,
-OCF positive,Tata Steel,PASS,
+check,issuer,year,status,detail
+completeness (13 items),JSW Steel,FY25,PASS,13/13
+source + page documented,JSW Steel,FY25,PASS,
+EBITDA recompute within 5%,JSW Steel,FY25,PASS,diff 2%
+net debt > 0,JSW Steel,FY25,PASS,76563
+leverage between 0 and 10x,JSW Steel,FY25,PASS,3.29x
+equity < total assets,JSW Steel,FY25,PASS,
+OCF positive,JSW Steel,FY25,PASS,
+completeness (13 items),JSW Steel,FY26,PASS,13/13
+source + page documented,JSW Steel,FY26,PASS,
+EBITDA recompute within 5%,JSW Steel,FY26,PASS,diff 3%
+net debt > 0,JSW Steel,FY26,PASS,54025
+leverage between 0 and 10x,JSW Steel,FY26,PASS,1.77x
+equity < total assets,JSW Steel,FY26,PASS,
+OCF positive,JSW Steel,FY26,PASS,
+completeness (13 items),Tata Steel,FY25,PASS,13/13
+source + page documented,Tata Steel,FY25,PASS,
+EBITDA recompute within 5%,Tata Steel,FY25,PASS,diff 1%
+net debt > 0,Tata Steel,FY25,PASS,82712
+leverage between 0 and 10x,Tata Steel,FY25,PASS,3.18x
+equity < total assets,Tata Steel,FY25,PASS,
+OCF positive,Tata Steel,FY25,PASS,
+completeness (13 items),Tata Steel,FY26,PASS,13/13
+source + page documented,Tata Steel,FY26,PASS,
+EBITDA recompute within 5%,Tata Steel,FY26,PASS,diff 3%
+net debt > 0,Tata Steel,FY26,PASS,81321
+leverage between 0 and 10x,Tata Steel,FY26,PASS,2.41x
+equity < total assets,Tata Steel,FY26,PASS,
+OCF positive,Tata Steel,FY26,PASS,

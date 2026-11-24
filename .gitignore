@@ -5,3 +5,10 @@ __pycache__/
 ~$*
 *.numbers
 db/credit.db
+*.pdf
+.Rhistory
+.DS_Store
+venv/
+__pycache__/
+*.numbers
+db/credit.db
